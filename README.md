@@ -1,3 +1,6 @@
+HTML extra opdracht 
+
+
 # template
 
 ## Inleiding
@@ -16,7 +19,7 @@ Deze opdracht moet aan de volgende functionele eisen voldoen:
 * Je maakt zelf pagina's voor HOME, FEATURES, PAGES, PORTFOLIO, BLOG en CONTACT en je geeft deze pagina's een bijpassend ontwerp (wees creatief!)
 
 ### Technische eisen
-Technische eisen beschrijven aan welke vakgerichte voorwaarden de opdracht moet voldoen. Bijvoorbeeld dat de opdracht in correct validerend HTML en CSS moet worden geschreven. 
+Technische eisen beschrijven aan welke vakgerichte voorwaarden de opdracht moet voldoen. Bijvoorbeeld dat de opdracht in correct validerend HTML en CSS moet worden geschreven.
 
 Deze opdracht moet aan de volgende technische eisen voldoen:
 * Het document is geschreven in HTML5

@@ -1,0 +1,232 @@
+/*  Kevin Kraaijveld CSS Template
+============================================================================
+
+1. Algemene CSS
+2. Header
+3. CONTENT BLOCKS
+4. Overige CSS
+
+============================================================================ */
+
+
+/* 1. Algemene CSS
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+
+body {
+  font-family: 'Roboto', sans-serif;
+  /*width:1349px;
+  height:667px;*/
+  color: rgba(255, 255, 255, 0.8);
+  background-image: url("images/header_bg.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  font-size: 14px;
+  margin:0px!important;
+}
+
+p {
+  margin: 0 0 10px;
+  font-family: 'Roboto', sans-serif;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+h1{
+   font: 110px 'Roboto', sans-serif;;
+   font-weight: bold;
+   margin:0;
+   color: #fff !important;
+   padding: 0 10px 0 10px;
+}
+
+h2{
+   font-size: 15px;
+   color: #969696;
+   padding: 0 0 10px 10px;
+   letter-spacing: 5px;
+   margin: 0;
+}
+h3{
+   font-size: 25px;
+    color: #eee;
+    border-bottom: 1px solid #444;
+    font-weight: 300;
+    line-height: 1.3em;
+    margin-bottom: 19px;
+    margin-top: 6px;
+    padding-bottom: 6px;
+}
+h4{
+    font-family: Apple Chancery;
+    font-size: 32px;
+    margin-bottom:20px;
+    margin-top: 20px;
+    line-height: normal;
+}
+a{
+    font-family: 'Roboto', sans-serif;
+    color: #969696;
+    text-decoration: none;
+}
+a:hover{
+    color: #fff;;
+}
+
+
+
+
+/* 2. HEADER
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+header{
+    width:100%;
+    height:40px;
+    background-color: #fff;
+}
+
+/*    Nav
+---------------------------------------------------------------------------- */
+nav{
+    float: right;
+}
+ul{
+    margin:0px;
+     list-style-type: none;
+     height:30px;
+     padding-right: 40px;
+}
+li{
+    display:table-cell;
+    padding-right: 1px;
+}
+nav ul li a button i.fa{
+    color:#fff;
+}
+
+button{
+    height:40px;
+    width:40px;
+    color:#CBCBCB;
+    padding:0px;
+    border:0px;
+}
+button:focus {
+    outline:0;
+}
+
+ul li button:hover{
+    background-color: #9b9999;
+}
+/* 3. CONTENT BLOCKS
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+/*    Main
+---------------------------------------------------------------------------- */
+div#button-list{
+    font-size:22px;
+    text-align: center;
+    display: inline-flex;
+    margin-left: 32%;
+}
+div#button-list i.fa{
+    margin: 0 15px 0 15px;
+}
+div#button-list a{
+     padding-right: 25px;
+}
+a.button:hover{
+    color:#fff;
+}
+div#Logo{
+    width: fit-content;
+    height: 156px;
+    margin: 100px 0 75px 40%;
+    border: 1px solid #969696;
+    background-color: rgba(39, 40, 43, 0.6);
+}
+div#Features{
+    width: fit-content;
+    height: 156px;
+    margin: 100px 0 75px 35%;
+    border: 1px solid #969696;
+    background-color: rgba(39, 40, 43, 0.6);
+}
+div#Pages{
+    width: fit-content;
+    height: 156px;
+    margin: 100px 0 75px 40%;
+    border: 1px solid #969696;
+    background-color: rgba(39, 40, 43, 0.6);
+}
+div#Portfolio{
+    width: fit-content;
+    height: 156px;
+    margin: 100px 0 75px 35%;
+    border: 1px solid #969696;
+    background-color: rgba(39, 40, 43, 0.6);
+}
+div#Blog{
+    width: fit-content;
+    height: 156px;
+    margin: 100px 0 75px 41.5%;
+    border: 1px solid #969696;
+    background-color: rgba(39, 40, 43, 0.6);
+}
+div#Contact{
+    width: fit-content;
+    height: 156px;
+    margin: 100px 0 75px 37%;
+    border: 1px solid #969696;
+    background-color: rgba(39, 40, 43, 0.6);
+}
+
+/*   Form
+---------------------------------------------------------------------------- */
+
+form{
+    width:60%;
+    padding-top: 25px;
+    margin-left: 25%;
+}
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+input.bluebutton{
+        background-color:#0099FF;
+}
+input.bluebutton:hover{
+        background-color:#045489;
+}
+
+footer{
+    position: fixed;
+    bottom: 10px;
+    right: 15px;
+}
+
+/* 4. Overige CSS
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+
+
+/*Made by Kevin Kraaijveld*/
