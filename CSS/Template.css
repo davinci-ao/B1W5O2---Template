@@ -1,5 +1,6 @@
 body {
 	background-image: url("../Images/header_bg.jpg");
+	background-size: 100%;
 }
 
 #block {
@@ -30,4 +31,39 @@ body {
 
 .icons:hover {
 	background-color: #777777;
+}
+
+#logo {
+	position: relative;
+	margin-left: 590px;
+	margin-top: 243px;
+	width: 335px;
+}
+
+#items {
+	font-family: 'Roboto', sans-serif;
+	color: #aaaaaa;
+	text-align: center;
+	list-style: none;
+	margin-top: 70px;
+}
+
+#items li {
+	display: inline-block;
+	margin-right: 65px;
+}
+
+#items li a{
+	display: block;
+	padding: 10px;
+}
+
+#items li a i {
+	font-size: 25px;
+	color: #666666;
+	transition: 0.5s;
+}
+
+#items i:hover {
+	color: #ffffff;
 }
