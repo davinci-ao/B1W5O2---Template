@@ -1,0 +1,12 @@
+body {
+	background-image: url("https://raw.githubusercontent.com/davinci-ao/B1W5O2---Template/master/voorbeeld/header_bg.jpg");
+}
+
+.header {
+	height: 300px;
+}
+
+.img1 {
+	margin: 0 auto 0 auto;
+	width: 350px;
+}
