@@ -1,0 +1,165 @@
+body {
+	background-image: url("https://raw.githubusercontent.com/davinci-ao/B1W5O2---Template/master/voorbeeld/header_bg.jpg");
+	margin: 0;
+	padding: 0;
+	font-family: 'Roboto', sans-serif;
+}
+
+.logo {
+	margin: 0 auto 0 auto;
+	margin-top: 150px;
+	width: 350px;
+}
+
+.header {
+ background-color: white;
+ height: 38px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: white;
+  margin-right: 45px;
+}
+
+li {
+  float: right;
+  width: 41px;
+}
+
+
+li a {
+  
+  display: block;
+  color: white;
+  padding: 10px 10px;
+  margin-left: 1px;
+  text-decoration: none;
+  background-color: lightgrey;
+}
+
+li a:hover {
+  background-color: white;
+}
+
+p {
+	margin: 3px;
+	color: rgba(255, 255, 255, 0.8);
+}
+
+p.home {
+	margin-left: 16px;
+	font-size: 30px;
+}
+
+p.cogs {
+	margin-left: 30px;
+	font-size: 30px;
+}
+
+p.pages {
+	margin-left: 13px;
+	font-size: 30px;
+}
+
+p.portfolio {
+	margin-left: 10px;
+	font-size: 30px;
+}
+
+p.blog {
+	margin-left: 6px;
+	font-size: 30px;
+}
+
+p.contact {
+	margin-left: 10px;
+	font-size: 30px;
+}
+
+.pagina1 {
+	color: white;
+	width: 40px;
+	text-align: center;
+	margin-top: 40px;
+	margin-left: 287px;
+	float: left;
+	font-size: 20px;
+}
+
+.pagina2 {
+	color: white;
+	width: 40px;
+	float: left;
+	margin-top: 40px;
+	margin-left: 60px;
+	text-align: center;
+	font-size: 21px;
+}
+
+.pagina3 {
+	color: white;
+	float: left;
+	margin-top: 40px;
+	margin-left: 88px;
+	text-align: center;
+	font-size: 21px;
+}
+
+.pagina4 {
+	color: white;
+	float: left;
+	margin-top: 37px;
+	margin-left: 45px;
+	text-align: center;
+	font-size: 21px;
+}
+
+.pagina5 {
+	color: white;
+	float: left;
+	margin-top: 40px;
+	margin-left: 50px;
+	text-align: center;
+	font-size: 21px;
+}
+
+.pagina6 {
+	color: white;
+	float: left;
+	margin-top: 40px;
+	margin-left: 44px;
+	text-align: center;
+	font-size: 21px;
+	margin-bottom: 50px;	
+}
+
+a:link {
+	color: grey;
+	text-decoration: none;
+}
+
+a:visited {
+	color: grey;
+	text-decoration: none;
+}
+
+a:hover {
+	color: white;
+	text-decoration: none;
+}
+
+a:active {
+	color: white;
+	text-decoration: none;
+}
+
+p.foot {
+	clear: left;
+	color: white;
+	text-align: center;
+	margin-right: 50px;
+}
